@@ -1,424 +1,449 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>bethropolis</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
     <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="https://avatars.githubusercontent.com/u/66518866?v=4" type="image/png"></head>
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/66518866?v=4" type="image/png">
+</head>
 
-<<<<<<< HEAD
-  <body>
+<body>
     <div id="loading">
-      <div id="spinner"></div>
+        <div id="spinner"></div>
     </div>
     <div id="profile">
-      <div id="profile_img" style="background: url(https://avatars.githubusercontent.com/u/66518866?v=4) center;"></div>
-      <div id="username"><span style="display:block;">Bethuel</span><a href="https://github.com/bethropolis">@bethropolis</a></div>
-      <div id="userbio" style="display: block;">I love programming, 16y end of topic now lets get programming</div>
-      <div id="about">
-                <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
-                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https:/www.bethropolis.ga">https:/www.bethropolis.ga</a></span>
-                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Nairobi, KE</span>
-                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
-                <div class="socials">
-                <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank" class="socials"><i class="fab fa-twitter"></i></a></span>
-                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank" class="socials"><i class="fab fa-dribbble"></i></a></span>
-                <span style="display:none !important;"><a href="https://www.linkedin.com/in/undefined/" target="_blank" class="socials"><i class="fab fa-linkedin-in"></i></a></span>
-                <span style="display:none !important;"><a href="https://www.medium.com/@undefined/" target="_blank" class="socials"><i class="fab fa-medium-m"></i></a></span>
-                </div>
-                </div>
+        <div id="profile_img" style="background: url(https://avatars.githubusercontent.com/u/66518866?v=4) center;">
+        </div>
+        <div id="username"><span style="display:block;">Bethuel</span><a
+                href="https://github.com/bethropolis">@bethropolis</a></div>
+        <div id="userbio" style="display: block;">I love programming, 16y end of topic now lets get programming</div>
+        <div id="about">
+            <span style="display:none;"><i class="fas fa-users"></i> &nbsp; null</span>
+            <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+            <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a
+                    href="https:/www.bethropolis.ga">https:/www.bethropolis.ga</a></span>
+            <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; Nairobi, KE</span>
+            <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; Available for hire</span>
+            <div class="socials">
+                <span style="display:none !important;"><a href="https://www.twitter.com/undefined" target="_blank"
+                        class="socials"><i class="fab fa-twitter"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.dribbble.com/undefined" target="_blank"
+                        class="socials"><i class="fab fa-dribbble"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.linkedin.com/in/undefined/" target="_blank"
+                        class="socials"><i class="fab fa-linkedin-in"></i></a></span>
+                <span style="display:none !important;"><a href="https://www.medium.com/@undefined/" target="_blank"
+                        class="socials"><i class="fab fa-medium-m"></i></a></span>
+            </div>
+        </div>
     </div>
     <div id="display">
-      <div id="work">
-        <h1>Work.</h1>
-        <div class="projects" id="work_section">
-                        <a href="https://github.com/bethropolis/save-the-wolves" target="_blank">
-                        <section>
-                            <div class="section_title">save-the-wolves</div>
-                            <div class="about_section">
-                            <span style="display:block;">The Wolves Life Matter Movement supporting the endangered wolves on the planet.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/bethro-signup" target="_blank">
-                        <section>
-                            <div class="section_title">bethro-signup</div>
-                            <div class="about_section">
+        <div id="work">
+            <h1>Work.</h1>
+            <div class="projects" id="work_section">
+                <a href="https://github.com/bethropolis/save-the-wolves" target="_blank">
+                    <section>
+                        <div class="section_title">save-the-wolves</div>
+                        <div class="about_section">
+                            <span style="display:block;">The Wolves Life Matter Movement supporting the endangered
+                                wolves on the planet.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/bethro-signup" target="_blank">
+                    <section>
+                        <div class="section_title">bethro-signup</div>
+                        <div class="about_section">
                             <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/bethrotemp.github.io" target="_blank">
-                        <section>
-                            <div class="section_title">bethrotemp.github.io</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/bethrotemp.github.io" target="_blank">
+                    <section>
+                        <div class="section_title">bethrotemp.github.io</div>
+                        <div class="about_section">
                             <span style="display:block;">it's optional</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/bethro-tik-tac-toe" target="_blank">
-                        <section>
-                            <div class="section_title">bethro-tik-tac-toe</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/bethro-tik-tac-toe" target="_blank">
+                    <section>
+                        <div class="section_title">bethro-tik-tac-toe</div>
+                        <div class="about_section">
                             <span style="display:block;">it is a tik tac toe containing also a dark mode feature</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/iphone-Frame" target="_blank">
-                        <section>
-                            <div class="section_title">iphone-Frame</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/iphone-Frame" target="_blank">
+                    <section>
+                        <div class="section_title">iphone-Frame</div>
+                        <div class="about_section">
                             <span style="display:block;">just doing my coding</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/Text-editor" target="_blank">
-                        <section>
-                            <div class="section_title">Text-editor</div>
-                            <div class="about_section">
-                            <span style="display:block;">this is a text editor that also has a live viewer and it's fully made of front end languages like js, HTML and CSS wich are easy to edit</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/rock-paper-scissors-game" target="_blank">
-                        <section>
-                            <div class="section_title">rock-paper-scissors-game</div>
-                            <div class="about_section">
-                            <span style="display:block;">this is just a neat html, css and js  rock paper scissors game, enjoyable and well made I can say</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/guessing-game" target="_blank">
-                        <section>
-                            <div class="section_title">guessing-game</div>
-                            <div class="about_section">
-                            <span style="display:block;">this is a simple guessing game fun and easy to play thanks to the amaizing tips, you can play it, like it and improve it</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/todoList" target="_blank">
-                        <section>
-                            <div class="section_title">todoList</div>
-                            <div class="about_section">
-                            <span style="display:block;">this is my todo list challenge that uses simple html but also stores data to the database </span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/quiz-site" target="_blank">
-                        <section>
-                            <div class="section_title">quiz-site</div>
-                            <div class="about_section">
-                            <span style="display:block;">A quiz site that you answer questions and gives you the analysis as you procceed</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/bethropolis.github.io" target="_blank">
-                        <section>
-                            <div class="section_title">bethropolis.github.io</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/Text-editor" target="_blank">
+                    <section>
+                        <div class="section_title">Text-editor</div>
+                        <div class="about_section">
+                            <span style="display:block;">this is a text editor that also has a live viewer and it's
+                                fully made of front end languages like js, HTML and CSS wich are easy to edit</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/rock-paper-scissors-game" target="_blank">
+                    <section>
+                        <div class="section_title">rock-paper-scissors-game</div>
+                        <div class="about_section">
+                            <span style="display:block;">this is just a neat html, css and js rock paper scissors game,
+                                enjoyable and well made I can say</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/guessing-game" target="_blank">
+                    <section>
+                        <div class="section_title">guessing-game</div>
+                        <div class="about_section">
+                            <span style="display:block;">this is a simple guessing game fun and easy to play thanks to
+                                the amaizing tips, you can play it, like it and improve it</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/todoList" target="_blank">
+                    <section>
+                        <div class="section_title">todoList</div>
+                        <div class="about_section">
+                            <span style="display:block;">this is my todo list challenge that uses simple html but also
+                                stores data to the database </span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/quiz-site" target="_blank">
+                    <section>
+                        <div class="section_title">quiz-site</div>
+                        <div class="about_section">
+                            <span style="display:block;">A quiz site that you answer questions and gives you the
+                                analysis as you procceed</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/bethropolis.github.io" target="_blank">
+                    <section>
+                        <div class="section_title">bethropolis.github.io</div>
+                        <div class="about_section">
                             <span style="display:block;">I am setting up my github pages, hope this will be fun</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/covid-tracker" target="_blank">
-                        <section>
-                            <div class="section_title">covid-tracker</div>
-                            <div class="about_section">
-                            <span style="display:block;">a covid 19 update tracker using the rapidapi API  to give the latest news about covid all over the world</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/color-background" target="_blank">
-                        <section>
-                            <div class="section_title">color-background</div>
-                            <div class="about_section">
-                            <span style="display:block;">A color generator that changes background color depending on input</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/WeatherApp" target="_blank">
-                        <section>
-                            <div class="section_title">WeatherApp</div>
-                            <div class="about_section">
-                            <span style="display:block;">An HTML, CSS an JS  weather app that displays the current weather of any city there is</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/suplike-social-website" target="_blank">
-                        <section>
-                            <div class="section_title">suplike-social-website</div>
-                            <div class="about_section">
-                            <span style="display:block;">this is social website, added with most social features and fully open source.</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 3</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/rockPaperScissorsjs" target="_blank">
-                        <section>
-                            <div class="section_title">rockPaperScissorsjs</div>
-                            <div class="about_section">
-                            <span style="display:block;">ready made package to help you with your rock paper scissors project</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/live-chat" target="_blank">
-                        <section>
-                            <div class="section_title">live-chat</div>
-                            <div class="about_section">
-                            <span style="display:block;">this is a live single page chat app using JS/PHP/HTML and VUE </span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 2</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/url-shortener" target="_blank">
-                        <section>
-                            <div class="section_title">url-shortener</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/covid-tracker" target="_blank">
+                    <section>
+                        <div class="section_title">covid-tracker</div>
+                        <div class="about_section">
+                            <span style="display:block;">a covid 19 update tracker using the rapidapi API to give the
+                                latest news about covid all over the world</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/color-background" target="_blank">
+                    <section>
+                        <div class="section_title">color-background</div>
+                        <div class="about_section">
+                            <span style="display:block;">A color generator that changes background color depending on
+                                input</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; CSS</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/WeatherApp" target="_blank">
+                    <section>
+                        <div class="section_title">WeatherApp</div>
+                        <div class="about_section">
+                            <span style="display:block;">An HTML, CSS an JS weather app that displays the current
+                                weather of any city there is</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/suplike-social-website" target="_blank">
+                    <section>
+                        <div class="section_title">suplike-social-website</div>
+                        <div class="about_section">
+                            <span style="display:block;">this is social website, added with most social features and
+                                fully open source.</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 3</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/rockPaperScissorsjs" target="_blank">
+                    <section>
+                        <div class="section_title">rockPaperScissorsjs</div>
+                        <div class="about_section">
+                            <span style="display:block;">ready made package to help you with your rock paper scissors
+                                project</span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/live-chat" target="_blank">
+                    <section>
+                        <div class="section_title">live-chat</div>
+                        <div class="about_section">
+                            <span style="display:block;">this is a live single page chat app using JS/PHP/HTML and VUE
+                            </span>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 2</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/url-shortener" target="_blank">
+                    <section>
+                        <div class="section_title">url-shortener</div>
+                        <div class="about_section">
                             <span style="display:block;">shrink your url with the amaizing PHP made url shortener</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/gootasite" target="_blank">
-                        <section>
-                            <div class="section_title">gootasite</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; PHP</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/gootasite" target="_blank">
+                    <section>
+                        <div class="section_title">gootasite</div>
+                        <div class="about_section">
                             <span style="display:block;">Created with CodeSandbox</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/roboB" target="_blank">
-                        <section>
-                            <div class="section_title">roboB</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/roboB" target="_blank">
+                    <section>
+                        <div class="section_title">roboB</div>
+                        <div class="about_section">
                             <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/github-viewer" target="_blank">
-                        <section>
-                            <div class="section_title">github-viewer</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:none;"><i class="fas fa-code"></i>&nbsp; null</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/github-viewer" target="_blank">
+                    <section>
+                        <div class="section_title">github-viewer</div>
+                        <div class="about_section">
                             <span style="display:none;">undefined</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/public-apis" target="_blank">
-                        <section>
-                            <div class="section_title">public-apis</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/public-apis" target="_blank">
+                    <section>
+                        <div class="section_title">public-apis</div>
+                        <div class="about_section">
                             <span style="display:block;">Created with CodeSandbox</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Vue</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 1</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/Get-Coding" target="_blank">
-                        <section>
-                            <div class="section_title">Get-Coding</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; Vue</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 1</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/Get-Coding" target="_blank">
+                    <section>
+                        <div class="section_title">Get-Coding</div>
+                        <div class="about_section">
                             <span style="display:block;">Created with CodeSandbox</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/socket-live-chat" target="_blank">
-                        <section>
-                            <div class="section_title">socket-live-chat</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/socket-live-chat" target="_blank">
+                    <section>
+                        <div class="section_title">socket-live-chat</div>
+                        <div class="about_section">
                             <span style="display:block;">this is a live chat app using socket.io and express</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/chess-bot" target="_blank">
-                        <section>
-                            <div class="section_title">chess-bot</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/chess-bot" target="_blank">
+                    <section>
+                        <div class="section_title">chess-bot</div>
+                        <div class="about_section">
                             <span style="display:block;">Created with CodeSandbox</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/NotifyApiTest" target="_blank">
-                        <section>
-                            <div class="section_title">NotifyApiTest</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/NotifyApiTest" target="_blank">
+                    <section>
+                        <div class="section_title">NotifyApiTest</div>
+                        <div class="about_section">
                             <span style="display:block;">it is a push notifications test with some awesome UI</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a>
-                        <a href="https://github.com/bethropolis/browser-screnshot" target="_blank">
-                        <section>
-                            <div class="section_title">browser-screnshot</div>
-                            <div class="about_section">
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; HTML</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://github.com/bethropolis/browser-screnshot" target="_blank">
+                    <section>
+                        <div class="section_title">browser-screnshot</div>
+                        <div class="about_section">
                             <span style="display:block;">Created with CodeSandbox</span>
-                            </div>
-                            <div class="bottom_section">
-                                <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
-                                <span><i class="fas fa-star"></i>&nbsp; 0</span>
-                                <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
-                            </div>
-                        </section>
-                        </a></div>
-      </div>
-      <div id="forks" style="display:none;">
-        <h1>Forks.</h1>
-        <div class="projects" id="forks_section"></div>
-      </div>
-      <div id="blog_section">
-        <h1>Blog.</h1>
-        <div id="blogs"></div>
-      </div>
-      <div id="footer">
-        <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
-      </div>
+                        </div>
+                        <div class="bottom_section">
+                            <span style="display:inline-block;"><i class="fas fa-code"></i>&nbsp; JavaScript</span>
+                            <span><i class="fas fa-star"></i>&nbsp; 0</span>
+                            <span><i class="fas fa-code-branch"></i>&nbsp; 0</span>
+                        </div>
+                    </section>
+                </a>
+            </div>
+        </div>
+        <div id="forks" style="display:none;">
+            <h1>Forks.</h1>
+            <div class="projects" id="forks_section"></div>
+        </div>
+        <div id="blog_section">
+            <h1>Blog.</h1>
+            <div id="blogs"></div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/imfunniee" target="_blank">made on earth by a human</a>
+        </div>
     </div>
     <script type="text/javascript">
-      setTimeout(function() {
-        document.getElementById("loading").classList.add("animated");
-        document.getElementById("loading").classList.add("fadeOut");
-        setTimeout(function() {
-          document.getElementById("loading").classList.remove("animated");
-          document.getElementById("loading").classList.remove("fadeOut");
-          document.getElementById("loading").style.display = "none";
-        }, 800);
-      }, 1500);
-      $.getJSON("blog.json", function(blog) {
-        blog = blog || [];
-        if (blog.length == 0) {
-          return (document.getElementById("blog_section").style.display =
-            "none");
-        }
-        for (var i = 0; i < blog.length; i++) {
-          $("#blogs").append(`
+        setTimeout(function () {
+            document.getElementById("loading").classList.add("animated");
+            document.getElementById("loading").classList.add("fadeOut");
+            setTimeout(function () {
+                document.getElementById("loading").classList.remove("animated");
+                document.getElementById("loading").classList.remove("fadeOut");
+                document.getElementById("loading").style.display = "none";
+            }, 800);
+        }, 1500);
+        $.getJSON("blog.json", function (blog) {
+            blog = blog || [];
+            if (blog.length == 0) {
+                return (document.getElementById("blog_section").style.display =
+                    "none");
+            }
+            for (var i = 0; i < blog.length; i++) {
+                $("#blogs").append(`
             <a href="./blog/${blog[i].url_title}/" target="_blank">
                 <section>
                     <img src="./blog/${blog[i].url_title}/${blog[i].top_image}">
@@ -431,157 +456,40 @@
                 </section>
             </a>
             `);
-        }
-      }).fail(function() {
-        return (document.getElementById("blog_section").style.display = "none");
-      });
+            }
+        }).fail(function () {
+            return (document.getElementById("blog_section").style.display = "none");
+        });
     </script>
 
     <script>
-      const magicProjectsGrid = new MagicGrid({
-        container: "#work_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
+        const magicProjectsGrid = new MagicGrid({
+            container: "#work_section",
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
+        });
 
-      const magicForksGrid = new MagicGrid({
-        container: "#forks_section",
-        animate: false,
-        gutter: 30, // default gutter size
-        static: true,
-        useMin: false,
-        maxColumns: 2,
-        useTransform: true
-      });
+        const magicForksGrid = new MagicGrid({
+            container: "#forks_section",
+            animate: false,
+            gutter: 30, // default gutter size
+            static: true,
+            useMin: false,
+            maxColumns: 2,
+            useTransform: true
+        });
 
-      $("document").ready(() => {
-        magicProjectsGrid.listen();
-        magicForksGrid.listen();
-      });
+        $("document").ready(() => {
+            magicProjectsGrid.listen();
+            magicForksGrid.listen();
+        });
     </script>
-  
 
-</body></html>
-=======
- --->
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="Bethuel Kipsang">
-        <meta property="og:title" content="Bethuel Kipsang">
-        <meta property="og:type" content="website">
-        <meta property="og:site_name" content="Bethuel Kipsang">
-        <meta property="og:url" content="">
-        <meta property="og:image" content="icon\logo.png">
-        <meta property="og:locale" content="en_US">
-        <meta name="theme-color" content="#282C34">
-        <meta name="msapplication-navbutton-color" content="#282C34">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <link rel="stylesheet" href="index.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <link rel="icon" sizes="600x482" href="icon\logo - large.png">
-        <link rel="icon" sizes="418x336" href="icon\logo.png">
-        <title>Bethropolis: Front End Developer</title>
-    </head>
-    <body>
-        <div title="Courtesy of Nour Soud" class="switch-wrapper">
-            <input id="switchCheckbox" type="checkbox">
-            <span class="switch-label day">Dark</span>
-            <label for="switchCheckbox" class="switch" style="transform: scaleX(-1);"></label>
-            <span class="switch-label night">Light</span>
-            <div class="right">
-                <a href="project.html">projects</a>
-            </div>
-        </div>
-        <header>
-            <div id="header-image"></div>
-            <div class="header-overlay"></div>
-            <div class="header-text">
-                <h1>Bethuel Kipsang</h1>
-                <h2>I love creating sites</h2>
-            </div>
-            <div id="logo">
-                <a href="https://github.com/bethropolis" title="Github" target="_blank">
-                    <img src="icon\black\dg.svg" alt="Github Icon">
-                </a>
-                <a href="mailto:bethropolis@gmail.com" title="mail" target="_blank">
-                    <img src="icon\black\dm.svg" alt="mail Icon">
-                </a>
-                <a href="https://www.twitter.com/bethropolis/" title="twitter" target="_blank">
-                    <img src="icon\black\dt.png" alt="twitter Icon">
-                </a>
-                <a href="https://www.instagram.com/bethropolis7/" title="Instagram" target="_blank">
-                    <img src="icon\black\di.svg" alt="Instagram Icon">
-                </a>
-            </div>
-        </header>
-        <section id="work">
-            <div id="sidebar">
-                <li id="workcolor">
-                    <a href="#work">Work</a>
-                </li>
-                <li id="aboutcolor">
-                    <a href="#about">About</a>
-                </li>
-                <li id="contactcolor">
-                    <a href="#contact">Contact</a>
-                </li>
-            </div>
-            <div class="sites">
-                <h2>Github Project Index:</h2>
-                <ul>
-                    <li>
-                        <a href="covid-tracker/ " target="_blank">covid-tracker
-              </a>
-                        <p>A webpage for checking covid updates.</p>
-                    </li>
-                    <li>
-                        <a href="guessing-game/" target="_blank">guessing game
-              </a>
-                        <p>this is a simple guessing game fun and easy to play thanks to the amaizing tips, you can play it </p>
-                    </li>
-                    <li>
-                        <a href="rockPaperScissorsjs/" target="_blank">rockPaperScissorsjs
-              </a>
-                        <p>a library for bulding a rock paper scissors game easily</p>
-                    </li>
-                    <li>
-                        <a href="WeatherApp/" target="_blank">weather app
-              </a>
-                        <p>this is an app for checking the weather</p>
-                    </li>
-                </ul>
-                <div class="center">
-                    <a href="project.html">
-                        <button class="toProject">
-                            projects <img src="./icon/black/link.svg" width="15px" height="15px">
-                        </button>
-                    </a>
-                </div>
-            </div>
-            <div class="writes"></div>
-        </section>
-        <section id="about">
-            <div class="abouttext">
-                I'm a self taught Front End Developer who lives in Nairobi, <span style="color:#000;background-color:inherit;">Ke</span><span style="color:#FF6161;background-color:inherit;">ny</span><span style="color:#00d400;background-color:inherit;">a</span>
-                .<br>
-                 <p>I do <span class="yellowaccent">HTML</span>, <span class="redaccent">CSS</span>, lots of <span class="tealaccent">JavaScript</span>
-                and <span style="color:#B08CFF">php</span>
-                  .</p><br>
-                <P>I am currently learning <span class="purpleaccent">discordjs</span>. I like doing my projects with<span class="greenaccent"> vuejs</span></P>  
-            </div>
-        </section>
-        <section id="contact">
-            <div class="contacttext">
-                you can contact me through my on any of the social platforms below or through my <a href="mailto:bethropolis@gmail.com" style="color: #68D0F3">mail</a>
-            </div>
-</div></section></body><script type="text/javascript" src="index.js"></script>
+
+</body>
+
 </html>
->>>>>>> b00d70ceb42b1a24ac11de11b082a61fcb4b5b66
