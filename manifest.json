@@ -1,0 +1,28 @@
+{
+  "name":"bethropolis",
+  "short_name":"bethro",
+  "description": "Bethuel Kipsang's personal porfolio", 
+  "lang": "en-UK",
+  "start_url":"?utm_source=manifest",
+  "background_color": "#EEEEEE",
+  "theme_color": "#0E131F", 
+  "display": "standalone",
+  "orientation": "portrait",   
+  "icons": [
+    {
+      "src": "img/thumb/64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "img/thumb/144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "img/thumb/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

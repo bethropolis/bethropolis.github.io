@@ -3,8 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="my potfolio">
+        <meta name="author" content="bethuel">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bethuel Kipsang</title>
+      <link rel="manifest" href="manifest.json">     
+      <script async type="text/javascript">
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/serviceworker.js', {scope: '/static_pwa_boilerplate/'})
+      .then(function(registration) {
+        registration.addEventListener('updatefound', function() {
+          var installingWorker = registration.installing;
+          console.log('A new service worker is being installed:',
+            installingWorker);
+        });
+      })
+      .catch(function(error) {
+        console.log('Service worker registration failed:', error);
+      });
+    } else {
+      console.log('Service workers are not supported, switch to Firefox!.');
+    }
+  </script>
   </head>
   <body>
     <script type="application/json" id="my-template-data">
